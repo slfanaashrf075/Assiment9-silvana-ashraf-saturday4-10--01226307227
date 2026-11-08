@@ -136,7 +136,7 @@ input{
     padding-left: 35px;
 }
 
-/* Add Contact Button */
+
 .add-contact-btn {
     background-color: #0d6efd;
     color: #fff;
@@ -157,7 +157,7 @@ input{
     box-shadow: none;
 }
 
-/* Modal */
+
 .contact-modal {
     background-color: #fff;
     color: #212529;
@@ -178,7 +178,7 @@ input{
     color: #222;
 }
 
-/* Close X */
+
 .contact-modal .btn-close {
     display: block;
     opacity: 1;
@@ -186,7 +186,7 @@ input{
     box-shadow: none;
 }
 
-/* Photo */
+
 .profile-photo {
     display: flex;
     flex-direction: column;
@@ -218,7 +218,7 @@ input{
 }
 
 
-/* Navbar Section */
+
 .navbar-section {
     background-color: #ffffff;
     border-bottom: 1px solid #f1f1f1;
@@ -231,13 +231,13 @@ input{
     background-color: #ffffff;
 }
 
-/* Navbar Container */
+
 .navbar-section .container-fluid {
     width: 90%;
     padding: 0;
 }
 
-/* Logo Icon */
+
 .icon-bo {
     width: 48px;
     height: 48px;
@@ -261,7 +261,7 @@ input{
     padding: 0;
 }
 
-/* ContactHub Text */
+
 .navbar-section .navbar-nav {
     display: flex;
     flex-direction: column;
@@ -285,7 +285,7 @@ input{
     color: #6a7282;
 }
 
-/* Add Contact Button */
+
 .Contact-1 {
     background-color: #762cff;
     color: #ffffff;
@@ -310,7 +310,7 @@ input{
     margin-right: 5px;
 }
 
-/* Navbar Right Buttons */
+
 .navbar-section [role="search"] {
     align-items: center;
     gap: 5px;
@@ -329,7 +329,7 @@ input{
     color: #762cff;
 }
 
-/* Avatar */
+
 .navbar-section [role="search"] > div:last-child > div {
     width: 44px !important;
     height: 44px;
@@ -338,7 +338,7 @@ input{
     overflow: hidden;
 }
 
-/* Responsive */
+
 @media (max-width: 991px) {
     .navbar-section .container-fluid {
         width: 95%;
@@ -354,19 +354,6 @@ input{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* تنسيق بطاقة جهة الاتصال الرئيسية */
 .contact-card {
     background-color: #ffffff;
     border-radius: 16px;
@@ -381,7 +368,7 @@ input{
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 }
 
-/* تنسيق الأفاتار والحروف الأولى */
+
 .avatar-wrapper {
     position: relative;
     display: inline-block;
@@ -400,7 +387,7 @@ input{
     border-radius: 12px;
 }
 
-/* بادج المفضلة والطوارئ فوق الأفاتار */
+
 .avatar-badge {
     position: absolute;
     width: 20px;
@@ -425,7 +412,7 @@ input{
     background-color: #dc3545;
 }
 
-/* تنسيق الاسم ورقم التليفون */
+
 .contact-heading h3 {
     font-size: 16px;
     font-weight: 700;
@@ -442,7 +429,7 @@ input{
     gap: 6px;
 }
 
-/* تفاصيل الإيميل والعنوان */
+
 .contact-details {
     margin: 15px 0;
     display: flex;
@@ -459,7 +446,7 @@ input{
     gap: 8px;
 }
 
-/* الـ Tags (المجموعات والطوارئ) */
+
 .contact-tags {
     margin-bottom: 15px;
 }
@@ -482,7 +469,6 @@ input{
     color: #dc3545;
 }
 
-/* أزرار الإجراءات التحتية (اتصال، إيميل، تعديل، حذف) */
 .contact-actions {
     border-top: 1px solid #f1f3f5;
     padding-top: 12px;
@@ -509,7 +495,7 @@ input{
     color: #212529;
 }
 
-/* تفعيل ألوان الأزرار عند الاختيار */
+
 .favorite-button.favorite-active {
     background-color: #fff9db;
     color: #f59f00;
