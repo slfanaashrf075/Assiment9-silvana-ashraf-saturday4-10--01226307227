@@ -1,0 +1,529 @@
+image {
+    width: 100%;
+}
+.fo{
+    color:white;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+border-radius: 8px;
+margin-top: 20px;
+margin-left: 40px;
+}
+.avatar img{
+    width: 45px;
+    margin-left: 50px !important;
+   border-radius: 10px;
+}
+.nave{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar{
+    margin-left: 850px;
+    
+}
+.but{
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+      cursor: pointer;
+    transition: 0.2s;
+}
+.but:hover {
+  box-shadow: 5px 5px 5px rgb(195, 195, 250);
+    transform: scale(1.07);
+}
+.fu{
+    color: rgba(0, 0, 0, 0.541);
+    margin-right: 30px;
+   
+   
+}
+.navber{
+    background-color: white !important;
+}
+.fu:hover{
+  background-color: rgb(206, 206, 250);  
+  color: rgba(0, 0, 0, 0.918); 
+  width: 50px;
+}
+.con{
+    margin-left: 30px;
+}
+body{
+background-color:#F8FAFC ;
+
+}
+.span{
+    color: blueviolet;
+}
+.tal{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+   border: solid 2px ghostwhite;
+
+}
+.tal:hover{
+    box-shadow: 5px 5px 5px rgb(247, 240, 240);
+    
+}
+.al{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.fx{
+    background-color: orangered;
+}
+.vo{
+    background-color: red;
+}
+.og{
+    display: flex;
+  
+}
+.tall{
+    background-color: #FFF7ED;
+    border-top: 10px;
+}
+.yat{
+    background-color: white;
+    margin: auto;
+   border-bottom: 10px;
+}
+.no{
+   padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bo{
+  color:#D1D5DC ;  
+  background-color:#F3F4F6;
+  margin-right: 30px;
+   width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.sol{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+.tool{
+    background-color:#FEF2F2;
+    border-top: 10px;
+}
+.poo{
+    left: 30px;
+    top: 13%;
+    transform: translateY(-50%);
+    color:gainsboro;
+}
+input{
+    padding-left: 35px;
+}
+
+/* Add Contact Button */
+.add-contact-btn {
+    background-color: #0d6efd;
+    color: #fff;
+    border: 1px solid #0d6efd;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: none;
+    transform: none;
+}
+
+.add-contact-btn:hover {
+    background-color: #0b5ed7;
+    color: #fff;
+    border-color: #0b5ed7;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Modal */
+.contact-modal {
+    background-color: #fff;
+    color: #212529;
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+/* Header */
+.contact-modal .modal-header {
+    padding: 18px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-modal .modal-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+}
+
+/* Close X */
+.contact-modal .btn-close {
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+/* Photo */
+.profile-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.change-photo-btn {
+    background-color: #f1f3f5;
+    color: #333;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+/* Navbar Section */
+.navbar-section {
+    background-color: #ffffff;
+    border-bottom: 1px solid #f1f1f1;
+    min-height: 86px;
+    margin-bottom: 30px !important;
+}
+
+.navbar-section .navbar {
+    min-height: 86px;
+    background-color: #ffffff;
+}
+
+/* Navbar Container */
+.navbar-section .container-fluid {
+    width: 90%;
+    padding: 0;
+}
+
+/* Logo Icon */
+.icon-bo {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.purple-style {
+    background-color: #762cff;
+    color: #ffffff;
+    box-shadow: 0 5px 12px rgba(118, 44, 255, 0.2);
+}
+
+/* Navbar Brand */
+.navbar-section .navbar-brand {
+    margin-right: 12px;
+    padding: 0;
+}
+
+/* ContactHub Text */
+.navbar-section .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+.navbar-section .navbar-nav span:first-child {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #101828;
+}
+
+.navbar-section .navbar-nav span:last-child {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #6a7282;
+}
+
+/* Add Contact Button */
+.Contact-1 {
+    background-color: #762cff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.Contact-1:hover {
+    background-color: #6420e8;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(118, 44, 255, 0.2);
+}
+
+/* Add Contact Plus */
+#addContactBtn {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+/* Navbar Right Buttons */
+.navbar-section [role="search"] {
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-section [role="search"] button:not(.Contact-1) {
+    background-color: transparent;
+    border: none;
+    padding: 10px 13px;
+    color: #6a7282;
+    font-size: 16px;
+    transition: 0.2s ease;
+}
+
+.navbar-section [role="search"] button:not(.Contact-1):hover {
+    color: #762cff;
+}
+
+/* Avatar */
+.navbar-section [role="search"] > div:last-child > div {
+    width: 44px !important;
+    height: 44px;
+    margin-left: 8px !important;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .navbar-section .container-fluid {
+        width: 95%;
+    }
+
+    .navbar-section .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-section [role="search"] {
+        margin-top: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* تنسيق بطاقة جهة الاتصال الرئيسية */
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    border: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.contact-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* تنسيق الأفاتار والحروف الأولى */
+.avatar-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.contact-avatar {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+/* بادج المفضلة والطوارئ فوق الأفاتار */
+.avatar-badge {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #fff;
+}
+
+.favorite-badge {
+    top: -4px;
+    right: -4px;
+    background-color: #ffc107;
+}
+
+.emergency-badge {
+    bottom: -4px;
+    right: -4px;
+    background-color: #dc3545;
+}
+
+/* تنسيق الاسم ورقم التليفون */
+.contact-heading h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2b2d42;
+    margin-bottom: 4px;
+}
+
+.contact-phone {
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* تفاصيل الإيميل والعنوان */
+.contact-details {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-detail {
+    font-size: 13px;
+    color: #495057;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* الـ Tags (المجموعات والطوارئ) */
+.contact-tags {
+    margin-bottom: 15px;
+}
+
+.contact-tag {
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.group-tag {
+    background-color: #f8f9fa;
+    color: #495057;
+    border: 1px solid #e9ecef;
+}
+
+.emergency-tag {
+    background-color: #fff5f5;
+    color: #dc3545;
+}
+
+/* أزرار الإجراءات التحتية (اتصال، إيميل، تعديل، حذف) */
+.contact-actions {
+    border-top: 1px solid #f1f3f5;
+    padding-top: 12px;
+    margin-top: auto;
+}
+
+.icon-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.icon-button:hover {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+/* تفعيل ألوان الأزرار عند الاختيار */
+.favorite-button.favorite-active {
+    background-color: #fff9db;
+    color: #f59f00;
+    border-color: #ffe066;
+}
+
+.emergency-button.emergency-active {
+    background-color: #fff5f5;
+    color: #e03131;
+    border-color: #ffc9c9;
+}
+
+.delete-button:hover {
+    background-color: #fff5f5;
+    color: #e03131;
+    border-color: #ffc9c9;
+}
